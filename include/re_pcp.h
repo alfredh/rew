@@ -58,7 +58,6 @@ enum pcp_result {
 	PCP_CANNOT_PROVIDE_EXTERNAL = 11,
 	PCP_ADDRESS_MISMATCH        = 12,
 	PCP_EXCESSIVE_REMOTE_PEERS  = 13,
-	PCP_UNSUPP_FAMILY           = 14  /*draft-cheshire-pcp-unsupp-family*/
 };
 
 enum pcp_option_code {

@@ -93,7 +93,6 @@ const char *pcp_result_name(enum pcp_result result)
 	case PCP_CANNOT_PROVIDE_EXTERNAL: return "CANNOT_PROVIDE_EXTERNAL";
 	case PCP_ADDRESS_MISMATCH:        return "ADDRESS_MISMATCH";
 	case PCP_EXCESSIVE_REMOTE_PEERS:  return "EXCESSIVE_REMOTE_PEERS";
-	case PCP_UNSUPP_FAMILY:           return "UNSUPP_FAMILY";
 	default: return "?";
 	}
 }
